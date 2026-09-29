@@ -1,0 +1,13 @@
+﻿<Page x:Class="Timcenko_10Variant.Pages.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="MenuPage">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="Вариант №10" FontSize="28" HorizontalAlignment="Center" Margin="0,0,0,30"/>
+        <Button x:Name="btnTask1" Content="Задача 1. Повторяющиеся цифры" Width="320" Height="40" Margin="0,6" Click="btnTask1_Click"/>
+        <Button x:Name="btnTask2" Content="Задача 2. Самое длинное слово" Width="320" Height="40" Margin="0,6" Click="btnTask2_Click"/>
+        <Button x:Name="btnTask3" Content="Задача 3. Поиск в массиве" Width="320" Height="40" Margin="0,6" Click="btnTask3_Click"/>
+        <Button x:Name="btnTask4" Content="Задача 4. Перестановка в массиве" Width="320" Height="40" Margin="0,6" Click="btnTask4_Click"/>
+        <Button x:Name="btnTask5" Content="Задача 5. Сортировка матрицы" Width="320" Height="40" Margin="0,6" Click="btnTask5_Click"/>
+    </StackPanel>
+</Page>
